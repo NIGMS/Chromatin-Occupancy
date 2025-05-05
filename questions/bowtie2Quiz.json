@@ -1,0 +1,23 @@
+[
+	{
+        "question": "What step do we have to do only once for every new genome build? We do this before aligning our reads to the genome (hint: we've done this for you).",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Build a genome index.",
+                "correct": true,
+                "feedback": "Yep! You only have to build a new genome index once for each new genome that you use."
+            },
+            {
+                "answer": "Trimming.",
+                "correct": false,
+                "feedback": "Nope. Trimming, while not always necessary, is important to remove low-quality bases and adapters from each fastq file."
+            },
+            {
+                "answer": "Quality Control.",
+                "correct": false,
+                "feedback": "Nope. Quality varies from each experiment. It's important to perform a quality check for each sample regardless of genome build. "
+            }
+        ]
+    }
+]

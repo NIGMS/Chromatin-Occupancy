@@ -1,0 +1,46 @@
+{
+    "descripton": "Match the function of cutadapt with the option used. Feel free to look up the cutadapt help menu to solve.",
+    "questions": [
+        {
+            "question": "specifies the number of CPU cores to use. 0 tells it to auto-detect",
+            "answer": "-j",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },
+        {
+            "question": "discards reads that are shorter than this length after trimming.",
+            "answer": "-m",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },
+        {
+            "question": "specifies the adapter sequence to trim from the 3' end of reads on the left-hand read (R1).",
+            "answer": "-a",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },
+        {
+            "question": "trimming for NextSeq quality considerations.",
+            "answer": "--nextseq-trim",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },
+        {
+            "question": "use level 1 compression (gzip output).",
+            "answer": "-Z",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },
+        {
+            "question": "specifies the name of the output file for the left-end read (R1).",
+            "answer": "-o",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },        
+        {
+            "question": "specifies the name of the file for the right-end read (R2).",
+            "answer": "-p",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        },
+        {
+            "question": "specifies the adapter sequence to trim from the 3' end of reads on the right-hand read (R2).",
+            "answer": "-A",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !cutadapt --help."
+        }
+    ],
+    "distractors": ["-G", "-Q", "-U"]
+}

@@ -1,0 +1,21 @@
+{
+    "descripton": "Select the correct response to each.",
+    "questions": [
+        {
+            "question": "When creating a heatmap or profile plot with deeptools, what step is necessary first?",
+            "answer": "Running the computeMatrix command.",
+            "explanation": "Hint: this is where you specific which bigwig (signal) tracks to summarize over which regions/loci (often in bed format)."
+        },
+        {
+            "question": "Why do the results of permutation testing vary?",
+            "answer": "Because of the randomization.",
+            "explanation": "Hint: What happens when we use the shuf command?"
+        },
+        {
+            "question": "How many permutations would you need to run if you wanted to test the significance of an overlap at minimum p-value of .0001",
+            "answer": "10000",
+            "explanation": "Hint: the minimum p-value is 1 / N permutations."
+        }
+    ],
+    "distractors": ["Running the plotHeatmap command.", "Running the plotProfile command.", "Running permutations.", "Because our lists are too large to compare.", "10", "100","1000" ]
+}

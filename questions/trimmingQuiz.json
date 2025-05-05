@@ -1,0 +1,28 @@
+[
+	{
+        "question": "Why is it a good idea to trim the data?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It's not a good idea.",
+                "correct": false,
+                "feedback": "Try again. Trimming is typically recommended for ChIP-seq, CUT&RUN, and CUT&Tag."
+            },
+            {
+                "answer": "Removing N's can improve alignment to our reference genome.",
+                "correct": true,
+                "feedback": "Yes. Low quality bases can be trimmed at this step to improve our confidence of assigning the read to the correct genomic coordinate."
+            },
+            {
+                "answer": "Adapter sequences impact alignment.",
+                "correct": true,
+                "feedback": "Yes. Adapter sequences should be absent, but, depending on the library preparation strategy, you may see these appear. Hint: They also might appear more often for CUT&RUN and CUT&Tag data."
+            },
+            {
+                "answer": "Alignment of CUT&RUN and CUT&Tag may especially be impacted because they are more likely to have adapter sequences depending on the length of reads.",
+                "correct": true,
+                "feedback": "Because CUT&RUN and CUT&Tag represent a finer fragmentation, if you choose longer sequencing (100-150 bp), there is a higher chance that we may sequence into the adapter on the opposite end of the fragment. That's no big deal, but we should trim these off."
+            }
+        ]
+    }
+]

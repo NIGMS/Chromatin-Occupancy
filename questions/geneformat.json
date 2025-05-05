@@ -1,0 +1,21 @@
+{
+    "descripton": "Consider a gene on the - strand. Which column corresponds to the following in bed format?",
+    "questions": [
+        {
+            "question": "Chromosome",
+            "answer": "1",
+            "explanation": ""
+        },
+        {
+            "question": "TSS",
+            "answer": "3",
+            "explanation": "Hint: We're asking about genes on the - (minus) strand."
+        },
+        {
+            "question": "TTS",
+            "answer": "2",
+            "explanation": "Hint: We're asking about genes on the - (minus) strand."
+        }
+    ],
+    "distractors": ["4", "5", "6"]
+}

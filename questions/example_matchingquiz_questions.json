@@ -1,0 +1,20 @@
+{
+    "questions": [
+        {
+            "question": "Capital of France",
+            "answer": "Paris",
+            "explanation": "Paris has been the capital of France since the 10th century."
+        },
+        {
+            "question": "Capital of Germany",
+            "answer": "Berlin",
+            "explanation": "Berlin became the capital of Germany in 1991 after the reunification."
+        },
+        {
+            "question": "Capital of Italy",
+            "answer": "Rome",
+            "explanation": "Rome has been the capital of Italy since 1871."
+        }
+    ],
+    "distractors": ["London", "Madrid", "Vienna"]
+}

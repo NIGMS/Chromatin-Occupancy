@@ -1,0 +1,32 @@
+{
+    "descripton": "Match the function of bowtie2 with the option used. Feel free to look up the bowtie2 help menu to solve.",
+    "questions": [
+        {
+            "question": "specifies the number of CPU cores to use.",
+            "answer": "-p",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !bowtie2 --help."
+        },
+        {
+            "question": "specifies the location and prefix name of the bowtie2 index files.",
+            "answer": "-x",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !bowtie2 --help."
+        },
+        {
+            "question": "specifies the name of the fastq file if single-end.",
+            "answer": "-U",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !bowtie2 --help."
+        },
+        {
+            "question": "specifies the name of the fastq files if paired-end.",
+            "answer": "-1 and -2",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !bowtie2 --help."
+        },
+        {
+            "question": "output the mapped reads in sam format to the specified file.",
+            "answer": "-S",
+            "explanation": "If you get stuck: Try creating a new cell and looking at the help menu by typing !bowtie2 --help."
+        }
+ 
+    ],
+    "distractors": ["-t", "-k", "-N"]
+}

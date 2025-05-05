@@ -1,0 +1,21 @@
+{
+    "descripton": "Select the fragmentation that is used by each method.",
+    "questions": [
+        {
+            "question": "ChIP-seq",
+            "answer": "sonication",
+            "explanation": "Hint: ChIP-seq uses a method of randomly fragmenting chromatin followed by immunoprecipitation."
+        },
+        {
+            "question": "CUT&RUN",
+            "answer": "pA-MNase",
+            "explanation": "Hint: CUT&RUN targets fragmentation to your protein of interest."
+        },
+        {
+            "question": "CUT&Tag",
+            "answer": "pA-Tn5",
+            "explanation": "Hint: CUT&Tag targets fragmentation to your protein of interest."
+        }
+    ],
+    "distractors": ["DPNI", "irradiation", "formaldehyde"]
+}

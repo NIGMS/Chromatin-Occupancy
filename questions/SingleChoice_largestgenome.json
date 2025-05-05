@@ -1,0 +1,28 @@
+[
+	{
+        "question": "Select a single answer. Which organism has the largest genome?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "human",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "australian lungfish",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "spanish salemander",
+                "correct": false,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "dog",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

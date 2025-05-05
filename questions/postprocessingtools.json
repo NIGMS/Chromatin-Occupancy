@@ -1,0 +1,21 @@
+{
+    "descripton": "Select the command/tool we used for each step.",
+    "questions": [
+        {
+            "question": "conversion to bam and quality filtering",
+            "answer": "samtools view",
+            "explanation": "Hint: this was our first step after mapping the data."
+        },
+        {
+            "question": "organize the bam file by coordinates",
+            "answer": "samtools sort",
+            "explanation": "Hint: we used this tool after converting to a bam file."
+        },
+        {
+            "question": "removal of PCR duplicates",
+            "answer": "picard",
+            "explanation": "Hint: it's important to remove duplicates to avoid false peaks!"
+        }
+    ],
+    "distractors": ["bowtie2", "fastqc", "igv"]
+}
