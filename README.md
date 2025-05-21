@@ -19,7 +19,15 @@
 This module covers the basic analysis and considerations for ChIP-seq, CUT&RUN, and CUT&Tag. Topics include quality control, filtering, alignment, deduplication, peak identification, visualization, and differential analysis of occupancy. Throughout the module, you can explore different considerations for each method as well as unifying themes. This pipeline tutorial is divided into three submodules, which can be taken one after the other, or as standalone lessons covering preprocessing, differential and downstream analysis, and integration of ATAC-seq and RNA-seq. 
 
 
-https://github.com/user-attachments/assets/9717a9b4-1b7b-4291-ad32-3ad71e259948
+### Introductory Video
+In this video we introduce chromatin occupancy profiling by high-throughput sequencing and compare ChIP-seq, CUT&RUN, and CUT&Tag. We introduce the example datasets used in this module which profile protein occupancy related to BAF chromatin remodeling, and explain a current molecular model of its function. 
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=TSLOtj9tixw&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
+            <img src="images/UNMC_overview_video_1_thumbnail.jpeg" alt="NIH/NIGMS Sandbox Chromatin Occupancy Video 1", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch introductory video </span>
+</p>
 
 
 ## **Background**
@@ -67,8 +75,16 @@ These tutorials were designed to be used on cloud computing platforms, such that
 
 With this in mind, our tutorials use Jupyter Notebook files, which Google Cloud Platform, Amazon Web Services, and Microsoft Azure all provide support for. Therefore, requirements should only require the creation of a virtual machine on one of these providers and the downloading of these repository files to the machine. 
 
+### Module Overview Video
+In this video we introduce chromatin occupancy profiling by high-throughput sequencing and compare ChIP-seq, CUT&RUN, and CUT&Tag. We introduce the example datasets used in this module which profile protein occupancy related to BAF chromatin remodeling, and explain a current molecular model of its function. 
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=4n5OgVEok38&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
+            <img src="images/UNMC_overview_video_2_thumbnail.jpeg" alt="NIH/NIGMS Sandbox Chromatin Occupancy Video 2", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch overview video </span>
+</p>
 
-https://github.com/user-attachments/assets/1ec6390c-c7fa-4f26-b123-fb7837f79f3a
 
 
 ## **Getting Started**
@@ -78,10 +94,20 @@ To increase the speed of each step, we recommend creating an instance with 50-10
 
 **Note:** To avoid unintended costs, we also recommend following the instructions to configure the virtual machine to auto-shutdown when left idle: [AWS configuration](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/auto-shutdown-instance.md) and [GCP configuration](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md)
 
-Once you initialize the machine and open jupyter notebook, clone this repository.
+Once you initialize the machine and open jupyter notebook, clone this repository. <br>
 <img src="images/cloningrepository.jpg" width=600 />
 
-After cloning the repository and navigating to the corresponding folder, you will find 3 notebooks, one for each Submodule. To get started, open the notebook corresponding to Submodule 1 and follow the instructions within.
+After cloning the repository and navigating to the corresponding folder, you will find 3 notebooks, one for each Submodule. To get started, open the notebook corresponding to Submodule 1 and follow the instructions within. <br><br>
+
+You can also watch the AWS notebook setup video below for step-by-step instructions:
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=djLo0L3147s&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
+            <img src="images/aws_notebook_setup_thumbnail.jpeg" alt="Creating an AWS SageMaker Notebook Instance", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch notebook setup video </span>
+</p>
+
 
 ## **Software Requirements**
 Because this module is hosted on cloud platforms and implemented in Jupyter Lab, the tools required throughout the module are configured via miniconda. Any system with a bash environment running Jupyter Lab should be able to run the module.
