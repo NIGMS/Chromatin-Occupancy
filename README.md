@@ -1,6 +1,8 @@
 # Exploring Chromatin Occupancy with ChIP-seq, CUT&RUN, or CUT&Tag
 ---------------------------------
-<img src="images/Module%20github%20anchor%20graphics.jpg" width="400" />
+<p align="center">
+  <img src="images/Module%20github%20anchor%20graphics.jpg" width="400" />
+</p>
 
 ## **Contents**
 
