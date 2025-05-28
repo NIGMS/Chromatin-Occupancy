@@ -90,7 +90,7 @@ In this video we introduce chromatin occupancy profiling by high-throughput sequ
 
 
 ## **Getting Started**
-This repository contains several notebook files which serve as bioinformatics workflow tutorials that should work on any system that runs jupyter lab, and was specifically designed for Amazon Web Services (AWS) and the Google Cloud Platform (GCP). To learn how to get started with Jupyter Notebooks in the cloud, please follow the instructions provided by the NIH Cloud Lab relevant to your preferred cloud platform: [Jupyter in AWS Sagemaker](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/Jupyter_notebook.md) or [Jupyter in GCP VertexAI](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). 
+This repository contains several notebook files which serve as bioinformatics workflow tutorials that should work on any system that runs jupyter lab, and was specifically designed for Amazon Web Services (AWS) and the Google Cloud Platform (GCP). To learn how to get started with Jupyter Notebooks in the cloud, please follow the instructions provided by the NIH Cloud Lab relevant to your preferred cloud platform: [Jupyter in AWS SageMaker](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) or [Jupyter in GCP VertexAI](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md). 
 
 To increase the speed of each step, we recommend creating an instance with 50-100 GB of memory and at least 4 cores, for example: ml.c5.xlarge on AWS. 
 
