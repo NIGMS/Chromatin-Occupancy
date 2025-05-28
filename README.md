@@ -92,7 +92,7 @@ This repository contains several notebook files which serve as bioinformatics wo
 
 To increase the speed of each step, we recommend creating an instance with 50-100 GB of memory and at least 4 cores, for example: ml.c5.xlarge on AWS. 
 
-**Note:** To avoid unintended costs, we also recommend following the instructions to configure the virtual machine to auto-shutdown when left idle: [AWS configuration](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/auto-shutdown-instance.md) and [GCP configuration](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md)
+**Note:** To avoid unintended costs, we also recommend following the instructions to configure the virtual machine to auto-shutdown when left idle: [AWS configuration](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) and [GCP configuration](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md).
 
 Once you initialize the machine and open jupyter notebook, clone this repository. <br>
 <img src="images/cloningrepository.jpg" width=600 />
